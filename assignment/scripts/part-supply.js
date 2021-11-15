@@ -28,12 +28,10 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges[5]);
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 //6. Showing supplyChanges...
-for (supply of supplyChanges){
-    console.log('6. Showing supplyChanges...', supply);
-    if (supplyChanges < 1);
-    else if (supplyChanges === 0);
-    console.log('No change');
+for (let i=0; i<supplyChanges.length; i++ ) {
+    console.log('6. Showing supplyChanges...', supplyChanges[i]);
 }
+   
 
 //console.log('6. Showing supplyChanges...', supply);
 
