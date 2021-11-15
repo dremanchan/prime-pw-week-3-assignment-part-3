@@ -30,6 +30,13 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges[5]);
 //6. Showing supplyChanges...
 for (let i=0; i<supplyChanges.length; i++ ) {
     console.log('6. Showing supplyChanges...', supplyChanges[i]);
+    if (supplyChanges[i] > 1) {
+        console.log('Added ' +(supplyChanges[i]) + ' parts.');
+    } else if (supplyChanges[i] === 0){
+        console.log('No change.');
+    } else {
+        console.log('Removed ' +(supplyChanges[i]) + ' parts.');
+    }
 }
    
 
